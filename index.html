@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportify</title>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="function">
+        <div class="home">
+            <a href="#" class="home__home-btn">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+            <a href="#" class="home__search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </a>
+        </div>
+        
+        <div class="library">
+            <div class="library__header">
+                <a href="#" class="library__header--lib-btn">
+                    <i class="fa-solid fa-list"></i>
+                    Your Library
+                    <p class="text-lib">Collapse Your Library</p>
+                </a>
+                <a href="#" class="btn-add">
+                    <i class="library__header--add-btn fa-solid fa-plus"></i>
+                    <p class="text-add">Create playlist or folder</p>
+                </a>
+            </div>
+            <div class="library__create-playlist">
+                <h2>
+                    Create your first playlist
+                </h2>
+                <p>
+                    It's easy, we'll help you
+                </p>
+                <a href="#" class="library__create-playlist--btn">
+                    <span>Create playlist</span>
+                </a>
+            </div>
+            <div class="library__browse-podcasts">
+                <h2>
+                    Let's find some podcasts to follow
+                </h2>
+                <p>
+                    We'll keep you updated on new episodes
+                </p>
+                <a href="#" class="library__browse-podcasts--btn">
+                    <span>Browse podcasts</span>
+                </a>
+            </div>
+
+            <div class="library__bottom">
+                <div class="library__bottom--policies">
+                    <ul>
+                        <li>
+                            <a href="#">Legal</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Center</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Cookies</a>
+                        </li>
+                        <li>
+                            <a href="#">About Ads</a>
+                        </li>
+                        <li>
+                            <a href="#">Accessibility</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="library__bottom--cookies">
+                    <a href="#">Cookies</a>
+                </div>
+
+                <div class="library__bottom--language-btn">
+                    <a href="#">
+                        <i class="fa-solid fa-globe"></i>
+                        English
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="topbar">
+
+        <div class="prev-next-btn">
+            <button class="fa fas fa-chevron-left"></button>
+            <button class="fa fas fa-chevron-right"></button>
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li>
+                    <div class="navbar__item">
+                        <a href="#">Premium</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navbar__item">
+                        <a href="#">Support</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="navbar__item">
+                        <a href="#">Download</a>
+                    </div>
+                </li>
+                <li class="divider">|</li>
+                <li>
+                    <div class="navbar__item">
+                        <a href="#" class="sign-up-btn">Sign up</a>
+                    </div>
+                </li>
+            </ul>
+            <button>Log in</button>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <!-- <div class="topbar">
+
+            <div class="prev-next-btn">
+                <button class="fa fas fa-chevron-left"></button>
+                <button class="fa fas fa-chevron-right"></button>
+            </div>
+
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <div class="navbar__item">
+                            <a href="#">Premium</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="navbar__item">
+                            <a href="#">Support</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="navbar__item">
+                            <a href="#">Download</a>
+                        </div>
+                    </li>
+                    <li class="divider">|</li>
+                    <li>
+                        <div class="navbar__item">
+                            <a href="#" class="sign-up-btn">Sign up</a>
+                        </div>
+                    </li>
+                </ul>
+                <button>Log in</button>
+            </div>
+        </div> -->
+
+        <div class="spotify-playlists">
+            <div class="spotify-playlists__header">
+                <h2 class="focus">Focus</h2>
+                <a href="#">Show all</a>
+            </div>
+
+            <div class="list">
+                <div class="list__item">
+                    <img src="./assets/img/peaceful_piano.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Peaceful Piano</h4>
+                    <p>Peaceful piano to help you slow down, breathe and relax.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/deep_focus.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Deep Focus</h4>
+                    <p>Keep calm and focus with ambient and post-rock music.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/instrumental_study.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Instrumental Study</h4>
+                    <p>Focus with soft study music in the background.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/focus_flow.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Focus Flow</h4>
+                    <p>Uptempo instrumental hip hop beats.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/workday_lounge.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Workday Lounge</h4>
+                    <p>Lounge and chill out music for your workday.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/beats_to_think_to.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Beats to think to</h4>
+                    <p>Focus with deep techno and tech house.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="spotify-playlists">
+            <div class="spotify-playlists__header">
+                <h2>Spotify Playlists</h2>
+                <a href="#">Show all</a>
+            </div>
+
+            <div class="list">
+                <div class="list__item">
+                    <img src="./assets/img/today's_top_hits.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Today's Top Hits</h4>
+                    <p>Doja Cat on top of the Hottest 50!</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/rap_caviar.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>RapCaviar</h4>
+                    <p>New music from Gunna Gucci Mane and Doja Cat.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/all_out_2010s.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>All Out 2010s</h4>
+                    <p>The biggest songs of the 2010s.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/rock_classics.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Rock Classics</h4>
+                    <p>Rock legends & epic songs that continue to inspire generations. Cover: Foo Fighters</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/chill_hits.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Chill Hits</h4>
+                    <p>Kick back to the best new and recent chill hits.</p>
+                </div>
+                <div class="list__item">
+                    <img src="./assets/img/viva_latino.jpg" />
+                    <div class="play">
+                        <span class="fa fa-play"></span>
+                    </div>
+                    <h4>Viva Latino</h4>
+                    <p>Today's top Latin hits, elevando nuestra música. Cover: Don Omar</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main__bottom">
+            <div class="main__bottom-up">
+                <div class="caterogies">
+                    <div class="company-list">
+                        <h6>
+                            Company
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                            <li>
+                                <a href="#">Jobs</a>
+                            </li>
+                            <li>
+                                <a href="#">For the Record</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="communities-list">
+                        <h6>
+                            Communities
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">For Artists</a>
+                            </li>
+                            <li>
+                                <a href="#">Developers</a>
+                            </li>
+                            <li>
+                                <a href="#">Advertising</a>
+                            </li>
+                            <li>
+                                <a href="#">Investors</a>
+                            </li>
+                            <li>
+                                <a href="#">Vendors</a>
+                            </li>
+                            <li>
+                                <a href="#">Spotify for Work</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="useful-links-list">
+                        <h6>
+                            Useful links
+                        </h6>
+                        <ul>
+                            <li>
+                                <a href="#">Support</a>
+                            </li>
+                            <li>
+                                <a href="#">Free Mobile App</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="social-btn">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="copyright">
+                <i class="fa-regular fa-copyright"></i>
+                2023 Spotify AB
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="text">
+            <h6>Preview of Spotify</h6>
+            <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+            <button type="button">Sign up free</button>
+        </div>
+    </div>
+
+</body>
+</html>
