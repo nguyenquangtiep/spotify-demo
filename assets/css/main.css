@@ -8,7 +8,7 @@
     top: 0;
     flex-wrap: wrap;
     margin: 0;
-    height: auto;
+    bottom: 120px;
 }
 
 /* Home panel */
@@ -50,7 +50,6 @@
     margin: 0 10px 10px;
     border-radius: 10px;
 }
-
 .library__header {
     display: flex;
     color: var(--white-color);
