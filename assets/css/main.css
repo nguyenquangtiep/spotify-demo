@@ -4,10 +4,12 @@
     display: flex;
     background-color: var(--black-color);
     width: 433px;
+    height: fit-content;
     position: fixed;
     top: 0;
     flex-wrap: wrap;
     margin: 0;
+    position: absolute;
     bottom: 80px;
 }
 
