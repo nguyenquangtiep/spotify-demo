@@ -8,7 +8,7 @@
     top: 0;
     flex-wrap: wrap;
     margin: 0;
-    bottom: 120px;
+    bottom: 80px;
 }
 
 /* Home panel */
@@ -47,9 +47,13 @@
 
 .library {
     background-color: #121212;
+    bottom: 100px;
     margin: 0 10px 10px;
     border-radius: 10px;
+    width: 100%;
+    height: fit-content;
 }
+
 .library__header {
     display: flex;
     color: var(--white-color);
