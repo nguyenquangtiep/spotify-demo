@@ -3,14 +3,12 @@
 .function {
     display: flex;
     background-color: var(--black-color);
+    position: absolute;
     width: 433px;
-    height: fit-content;
-    position: fixed;
     top: 0;
     flex-wrap: wrap;
     margin: 0;
-    position: absolute;
-    bottom: 80px;
+    padding-bottom: 90px;
 }
 
 /* Home panel */
@@ -173,7 +171,6 @@
 
 .library__bottom {
     display: block;
-    margin-top: 150px;
 }
 .library__bottom--policies {
     margin-left: 16px;
@@ -425,11 +422,13 @@
 .main__bottom .main__bottom-up {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .main__bottom .main__bottom-up .caterogies {
     display: flex;
     gap: 120px;
     margin-left: 40px;
+    flex-wrap: wrap;
 }
 .main__bottom .main__bottom-up .caterogies .company-list,
 .main__bottom .main__bottom-up .caterogies .communities-list,
